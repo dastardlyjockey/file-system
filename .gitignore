@@ -1,0 +1,40 @@
+#workspace
+file-system.code-workspace
+
+# Python cache
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Local database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Testing/cache
+.pytest_cache/
+.mypy_cache/
